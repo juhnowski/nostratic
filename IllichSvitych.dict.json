@@ -1,0 +1,786 @@
+{
+    "_id" : ObjectId("5d61635ca3c81967fea4b9a4"),
+    "nostr" : "mi",
+    "rus" : "я",
+    "person" : NumberInt(1),
+    "number" : "s",
+    "type" : "pronoun",
+    "alt" : {
+        "all" : "bi",
+        "base" : "minʌ-"
+    },
+    "ural" : {
+        "all" : "mi",
+        "base" : "minʌ-"
+    },
+    "ie" : {
+        "all" : "me",
+        "base" : "mene"
+    },
+    "kartv" : {
+        "all" : [
+            "me",
+            "mi"
+        ],
+        "base" : "*maen-"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(6)
+}
+{
+    "_id" : ObjectId("5d619566a3c81967fea4b9a8"),
+    "nostr" : [
+        "ṭi",
+        "Si"
+    ],
+    "rus" : "ты",
+    "person" : NumberInt(2),
+    "number" : "s",
+    "type" : "pronoun",
+    "alt" : {
+        "mong" : "ti-",
+        "turk" : [
+            "si-",
+            "sen-"
+        ],
+        "tung" : "si-"
+    },
+    "ural" : {
+        "all" : "ti",
+        "base" : "tū-"
+    },
+    "drav" : {
+        "all" : "-ti",
+        "bragui" : {
+            "all" : "-is",
+            "type" : "suffix"
+        }
+    },
+    "ie" : {
+        "all" : [
+            "te",
+            {
+                "all" : "-s",
+                "type" : "suffix",
+                "loc" : "verb"
+            }
+        ],
+        "base" : "teṷe"
+    },
+    "kartv" : {
+        "all" : [
+            "se-",
+            "si-"
+        ],
+        "base" : [
+            "*swe-",
+            {
+                "all" : "šwen",
+                "case" : "possessive"
+            }
+        ]
+    },
+    "sh" : {
+        "all" : [
+            "'an-tʌ",
+            {
+                "all" : "t-",
+                "type" : "affix",
+                "loc" : "verb",
+                "notes" : "аффикс 2 л.ед.ч субъекта в глаголах"
+            }
+        ]
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(6)
+}
+{
+    "_id" : ObjectId("5d61b3c9a3c81967fea4b9a9"),
+    "nostr" : "mä",
+    "rus" : "мы с вами",
+    "type" : "pronoun",
+    "form" : "inclusive",
+    "person" : NumberInt(1),
+    "number" : "p",
+    "alt" : {
+        "all" : "bä-",
+        "base" : "mä-n"
+    },
+    "ural" : {
+        "all" : [
+            "mä-",
+            "me-"
+        ]
+    },
+    "drav" : "mǟ",
+    "ie" : {
+        "all" : "me-s"
+    },
+    "kartv" : {
+        "all" : "m-",
+        "notes" : "показатель объекта, 1л.мн.ч.,инклюзив"
+    },
+    "sh" : {
+        "all" : [
+            "m",
+            "n"
+        ]
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(6)
+}
+{
+    "_id" : ObjectId("5d61b755a3c81967fea4b9aa"),
+    "nostr" : "nʌ",
+    "rus" : "мы без вас",
+    "type" : "pronoun",
+    "form" : "exclusive",
+    "person" : NumberInt(1),
+    "number" : "p",
+    "drav" : {
+        "all" : "nām"
+    },
+    "ie" : {
+        "all" : "ne",
+        "base" : "no"
+    },
+    "kartv" : {
+        "all" : [
+            "naj",
+            {
+                "svan" : "n-",
+                "notes" : "показатель объекта 1 л.мн.ч."
+            }
+        ]
+    },
+    "sh" : {
+        "all" : "naḥnu",
+        "chad" : {
+            "all" : "n-",
+            "type" : [
+                "affix",
+                "solo"
+            ]
+        }
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(7)
+}
+{
+    "_id" : ObjectId("5d61ba15a3c81967fea4b9ab"),
+    "nostr" : "ṭä",
+    "rus" : "вы",
+    "type" : "pronoun",
+    "person" : NumberInt(2),
+    "number" : "p",
+    "alt" : {
+        "mong" : "ta"
+    },
+    "ural" : {
+        "all" : "tä"
+    },
+    "ie" : {
+        "all" : "-te",
+        "type" : "suffix"
+    },
+    "sh" : {
+        "all" : "t(ʌ)"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(7)
+}
+{
+    "_id" : ObjectId("5d61bd0aa3c81967fea4b9ac"),
+    "nostr" : "šä",
+    "rus" : "он",
+    "type" : "pronoun",
+    "class" : "animacy",
+    "person" : NumberInt(3),
+    "number" : "s",
+    "notes" : "указат.мест.одушевленного класса",
+    "alt" : {
+        "all" : "s1(ä)",
+        "notes" : "осн.притяж.мест.3л."
+    },
+    "ural" : {
+        "all" : "šä"
+    },
+    "ie" : {
+        "all" : [
+            {
+                "all" : "so-",
+                "gender" : "m"
+            },
+            {
+                "all" : "sā-",
+                "gender" : "f"
+            }
+        ]
+    },
+    "kartv" : {
+        "all" : "-s",
+        "base" : "-s1-"
+    },
+    "sh" : {
+        "all" : "šʌ"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(7)
+}
+{
+    "_id" : ObjectId("5d61bfc0a3c81967fea4b9ad"),
+    "nostr" : "ṭä",
+    "rus" : "этот,тот",
+    "type" : "pronoun",
+    "class" : "animacy",
+    "person" : NumberInt(3),
+    "number" : "s",
+    "notes" : "указат.мест.неодушевленного класса",
+    "alt" : {
+        "all" : "t'ä-",
+        "notes" : "тот"
+    },
+    "ural" : {
+        "all" : "tä-",
+        "notes" : "этот"
+    },
+    "drav" : {
+        "all" : "tā"
+    },
+    "ie" : {
+        "all" : [
+            {
+                "all" : "to-",
+                "notes" : "этот"
+            },
+            {
+                "all" : "te-",
+                "notes" : "тот"
+            }
+        ]
+    },
+    "kartv" : {
+        "megrel" : [
+            {
+                "all" : "te-",
+                "notes" : "этот"
+            },
+            {
+                "all" : "ti-",
+                "notes" : "тот"
+            }
+        ]
+    },
+    "sh" : {
+        "all" : "tʌ-",
+        "notes" : "указат.мест.ж.р."
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(7)
+}
+{
+    "_id" : ObjectId("5d61c460a3c81967fea4b9ae"),
+    "nostr" : [
+        "ʔi",
+        "ʔe"
+    ],
+    "rus" : "этот",
+    "type" : "pronoun",
+    "person" : NumberInt(3),
+    "number" : "s",
+    "notes" : "указание на ближайший предмет",
+    "alt" : {
+        "all" : [
+            {
+                "all" : "i",
+                "notes" : "указат.мест., показатель субъекта 3л.ед.ч."
+            },
+            {
+                "all" : "e-",
+                "notes" : "указание на ближайший предмет"
+            }
+        ]
+    },
+    "ural" : {
+        "all" : [
+            "i-",
+            "e-"
+        ]
+    },
+    "drav" : {
+        "all" : [
+            {
+                "all" : "ỉ-",
+                "notes" : "ỉ=ī+ĭ"
+            },
+            {
+                "all" : "ẻ-",
+                "notes" : "ẻ=ē+ĕ"
+            }
+        ]
+    },
+    "ie" : {
+        "all" : [
+            {
+                "all" : "ĥei",
+                "notes" : "указат.мест"
+            },
+            {
+                "all" : "ĥe-",
+                "notes" : "личное мест."
+            }
+        ]
+    },
+    "kartv" : {
+        "all" : [
+            {
+                "all" : "(h)i",
+                "notes" : "указание на отдаленный предмет; функция вторична"
+            },
+            {
+                "all" : "(h)e",
+                "notes" : "указат.мест."
+            }
+        ]
+    },
+    "sh" : {
+        "all" : "j",
+        "notes" : "указат.мест.,показатель субъекта 3л.муж.р. при глаголе"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(8)
+}
+{
+    "_id" : ObjectId("5d6293baa3c81967fea4b9b1"),
+    "nostr" : [
+        "ʔa"
+    ],
+    "rus" : "тот",
+    "type" : "pronoun",
+    "person" : NumberInt(3),
+    "number" : "s",
+    "notes" : "указание на отдаленный предмет",
+    "alt" : [
+        "a-",
+        "o-"
+    ],
+    "ural" : [
+        "a-",
+        "o-"
+    ],
+    "drav" : {
+        "all" : "ǟ",
+        "notes" : "указат. мест."
+    },
+    "ie" : {
+        "all" : "he-n-",
+        "notes" : "указат.частица"
+    },
+    "kartv" : {
+        "all" : {
+            "all" : "(h)a",
+            "notes" : "указат.мест.(указание на ближайший предмет; функция вторична)"
+        }
+    },
+    "sh" : {
+        "all" : "/'/ a",
+        "notes" : "указат.мест."
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(8)
+}
+{
+    "_id" : ObjectId("5d62981ba3c81967fea4b9b3"),
+    "nostr" : [
+        "mu-"
+    ],
+    "rus" : "указат.мест.широкого значения",
+    "type" : "pronoun",
+    "alt" : {
+        "all" : [
+            "bū-",
+            "bō-"
+        ],
+        "base" : "mu-n",
+        "notes" : "этот"
+    },
+    "ural" : {
+        "all" : [
+            "mū-",
+            "mō-"
+        ],
+        "notes" : "другой"
+    },
+    "ie" : {
+        "anatol" : "mo-",
+        "kelt" : "mo-",
+        "notes" : "он, этот"
+    },
+    "kartv" : {
+        "all" : "(m)a",
+        "notes" : "местоименная основа; этот, он"
+    },
+    "sh" : {
+        "chad" : "*m(w)",
+        "notes" : "они, этот, он"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(8)
+}
+{
+    "_id" : ObjectId("5d629d0fa3c81967fea4b9b4"),
+    "nostr" : [
+        "NA"
+    ],
+    "rus" : "указат.мест.широкого значения",
+    "type" : "pronoun",
+    "ural" : {
+        "all" : "nʌ-",
+        "notes" : "осн.указат.мест."
+    },
+    "drav" : {
+        "all" : "nǟ",
+        "notes" : "указат.мест."
+    },
+    "ie" : {
+        "all" : [
+            "ne-",
+            "no-"
+        ],
+        "notes" : "осн.указат.мест."
+    },
+    "kartv" : {
+        "all" : "-n",
+        "notes" : "показатель субъекта, 3л.ед.ч."
+    },
+    "sh" : {
+        "all" : "n(j)",
+        "notes" : "указат.мест."
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(8)
+}
+{
+    "_id" : ObjectId("5d62a267a3c81967fea4b9b6"),
+    "nostr" : [
+        "Ḳo"
+    ],
+    "notes" : "Вопросит.мест.одушевленн.класса",
+    "rus" : "кто",
+    "type" : "pronoun",
+    "class" : "animacy",
+    "alt" : {
+        "all" : [
+            "k'a",
+            "k'o"
+        ],
+        "notes" : "осн.вопросит.мест"
+    },
+    "ural" : {
+        "all" : [
+            {
+                "all" : "ko-"
+            },
+            {
+                "all" : "ku-"
+            }
+        ],
+        "notes" : "кто"
+    },
+    "ie" : {
+        "all" : [
+            {
+                "all" : "kṷo-",
+                "notes" : "кто"
+            },
+            {
+                "all" : "kṷi-",
+                "notes" : "что и др.вопросит.мест."
+            }
+        ]
+    },
+    "sh" : {
+        "all" : "k(w)",
+        "base" : "q(w)",
+        "notes" : "кто"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(9)
+}
+{
+    "_id" : ObjectId("5d62acc7a3c81967fea4b9b8"),
+    "nostr" : "mi",
+    "notes" : "Вопросит.мест.неодушевленн.класса",
+    "rus" : "что",
+    "type" : "pronoun",
+    "class" : "inanimacy",
+    "alt" : {
+        "turk" : "mi-",
+        "notes" : "что, вопросит.частица"
+    },
+    "ural" : "mi",
+    "drav" : {
+        "kaykadi" : "mida",
+        "burgendi" : "mi"
+    },
+    "ie" : {
+        "all" : "mo-",
+        "notes" : "осн.вопросит.наречий"
+    },
+    "kartv" : "maj",
+    "sh" : {
+        "all" : "m(j)",
+        "notes" : "что,кто"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(9)
+}
+{
+    "_id" : ObjectId("5d62c905a3c81967fea4b9b9"),
+    "nostr" : "ja",
+    "notes" : "Вопросит.относит.мест.",
+    "rus" : "какой, который",
+    "type" : "pronoun",
+    "alt" : {
+        "all" : "ja-",
+        "notes" : "какой, вопросит."
+    },
+    "ural" : {
+        "all" : "jo",
+        "notes" : "который,какой-то (относит. и неопред.)"
+    },
+    "drav" : {
+        "all" : "jǟ",
+        "notes" : "какой, что (вопросит.)"
+    },
+    "ie" : {
+        "all" : "io-",
+        "notes" : "который (относит.)"
+    },
+    "kartv" : {
+        "svan" : "ja-",
+        "notes" : "кто"
+    },
+    "sh" : {
+        "all" : [
+            "ja",
+            "'aj"
+        ],
+        "notes" : "какой,кто (вопросит.-относит)."
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(9)
+}
+{
+    "_id" : ObjectId("5d62ccc0a3c81967fea4b9bc"),
+    "nostr" : "-n",
+    "notes" : "суфф.косв.формы имен и местоим.",
+    "rus" : "косвенный падеж",
+    "type" : "suffix",
+    "alt" : "-n",
+    "ural" : "-n",
+    "drav" : "-(i)n",
+    "ie" : "-(e)n",
+    "kartv" : "-n",
+    "sh" : {
+        "vost kushit" : "-n",
+        "zap kushit" : "-n",
+        "notes" : "показатель gen. и косв.пад."
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(10)
+}
+{
+    "_id" : ObjectId("5d62cf8ca3c81967fea4b9bd"),
+    "nostr" : "mA",
+    "rus" : "суфф.формы маркированного прямого объекта",
+    "type" : "suffix",
+    "alt" : {
+        "tung" : [
+            "-ba",
+            "-bä"
+        ],
+        "notes" : "суфф.маркированн.определенн.объекта"
+    },
+    "ural" : {
+        "all" : "-mʌ",
+        "number" : "s",
+        "notes" : "суфф.определенн.объекта"
+    },
+    "drav" : {
+        "all" : "-m",
+        "notes" : "суфф.маркированн.объекта"
+    },
+    "ie" : {
+        "all" : "-m",
+        "number" : "s",
+        "case" : "acc"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(10)
+}
+{
+    "_id" : ObjectId("5d62d171a3c81967fea4b9be"),
+    "nostr" : "Ḳʌ",
+    "rus" : "частица направительного значения",
+    "type" : "suffix",
+    "alt" : {
+        "all" : "-kʌ",
+        "notes" : "постпозит.частица направит.значения, суфф. датива-латива"
+    },
+    "ural" : {
+        "all" : [
+            "-kkʌ",
+            "-kʌ"
+        ],
+        "notes" : "суфф.латива,постпозитивн.направит.частица"
+    },
+    "drav" : {
+        "all" : [
+            "-kkʌ",
+            "-kʌ"
+        ],
+        "notes" : "суфф.датива-латива"
+    },
+    "sh" : {
+        "all" : [
+            "k",
+            "qʔ"
+        ],
+        "notes" : "направит.частица"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(10)
+}
+{
+    "_id" : ObjectId("5d62d565a3c81967fea4b9bf"),
+    "nostr" : "na",
+    "rus" : "локативная частица",
+    "type" : "suffix",
+    "alt" : {
+        "all" : "-na",
+        "notes" : "локативный формант в местоименных нареч. и при именах с локативным значением"
+    },
+    "ural" : {
+        "all" : [
+            "-na",
+            "-nä"
+        ],
+        "notes" : "локативный формант в местоименных нареч. и при именах с локативным значением"
+    },
+    "drav" : {
+        "all" : "-n(ʌ)",
+        "notes" : "локативный суфф."
+    },
+    "ie" : {
+        "all" : [
+            "en",
+            "ṇ"
+        ],
+        "notes" : "препозит. и постпозит. локативная частица"
+    },
+    "kartv" : {
+        "all" : [
+            "nu",
+            "-n"
+        ],
+        "notes" : "локативный формант в местоименных нареч. и при именах локативного значения"
+    },
+    "sh" : {
+        "all" : "-n",
+        "notes" : "локативный формант в нареч. и именах собственных"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(11)
+}
+{
+    "_id" : ObjectId("5d62dd0fa3c81967fea4b9c0"),
+    "nostr" : "da",
+    "rus" : "локативная частица",
+    "type" : "suffix",
+    "alt" : {
+        "all" : [
+            "-da",
+            "-dä",
+            "-du",
+            "-dü"
+        ],
+        "notes" : "формант локативных падежей"
+    },
+    "ural" : {
+        "all" : [
+            "-δa",
+            "-δä"
+        ],
+        "notes" : "суфф.аблатива (местоимения и наречные основы)"
+    },
+    "drav" : {
+        "all" : [
+            "-ṭṭu",
+            "-tt(ʌ)"
+        ],
+        "notes" : "постпозит.частица локативно-аблативного значения"
+    },
+    "ie" : {
+        "all" : [
+            "-D",
+            "-eD"
+        ],
+        "notes" : "суфф.аблатива (местоимения и о-основы)"
+    },
+    "kartv" : {
+        "all" : [
+            {
+                "all" : "-da",
+                "notes" : "с местоим."
+            },
+            {
+                "all" : [
+                    "-d",
+                    "-ad"
+                ],
+                "notes" : "с именами."
+            }
+        ]
+    },
+    "sh" : {
+        "all" : "d",
+        "notes" : "частица с локативным значением"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(11)
+}
+{
+    "_id" : ObjectId("5d62fbe5a3c81967fea4b9c1"),
+    "nostr" : "łA",
+    "rus" : "локативная частица",
+    "type" : "suffix",
+    "alt" : {
+        "tung" : [
+            "-lā",
+            "-lǟ"
+        ],
+        "notes" : "локативный суффикс"
+    },
+    "ural" : {
+        "all" : [
+            "-ła",
+            "-łä"
+        ],
+        "notes" : "локативный суффикс"
+    },
+    "drav" : {
+        "all" : "-uḷ",
+        "notes" : "суфф.локатива"
+    },
+    "kartv" : {
+        "all" : "-la",
+        "notes" : "локативный афф. (в составе наречий)"
+    },
+    "sh" : {
+        "all" : "l",
+        "notes" : "локативно-директивная частица"
+    },
+    "tom" : NumberInt(1),
+    "page" : NumberInt(11)
+}
